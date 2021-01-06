@@ -1,0 +1,142 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    background-color: teal;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+     list-style: none;
+     margin: 0 20px;
+     color: yellow;
+     cursor: pointer;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    color: teal;
+}
+.highlight{
+    color: lightseagreen;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,cyan,yellow);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 800;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 40px;
+    padding-top: 70px;
+  }
+  
+  .row {
+    margin: 6px -10px;
+  }
+   /* Add padding BETWEEN each column */
+   .row,
+   .row > .column {
+     padding: 8px;
+  }
+  
+  /* Create one equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .back-ground{
+      position: relative;
+      text-align: center;
+      color: black;
+  }
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%,-10%);
+    font-size: 30px;
+}
+.other-centered{
+    position: absolute;
+    top: 50%;
+    right:10% ;
+    transform: translate(-50%,-10%);
+    background-image: linear-gradient(45deg,cyan,red);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+footer h2{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+}
+footer p{
+    text-align: center;
+    font-size: 25px;
+}
+.cars{
+    margin-left: 70px 20px 20px;
+    width: 30px;
+    height: 30%;
+    border-radius: 30%;
+}
+footer p{
+    text-align: center;
+}
+
+
+
+
+
